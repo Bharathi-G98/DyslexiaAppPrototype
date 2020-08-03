@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple"
+    tools:context=".Spell2Fragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="choose the word that rhymes with:"
+        android:textSize="20sp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/qn1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Say Word"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="90dp"
+        android:id="@+id/btnSpeak2"
+        />
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="doves"
+        android:textOff="doves"
+        android:layout_marginTop="120dp"
+        android:id="@+id/o1"
+        android:layout_below="@+id/btnSpeak"/>
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_below="@+id/o1"
+        android:textOn="moves"
+        android:textOff="moves"
+        android:id="@+id/o2"
+        />
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="bottle"
+        android:textOff="bottle"
+        android:layout_marginTop="210dp"
+        android:layout_below="@+id/o2"
+        android:id="@+id/o3"
+        />
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:textOn="bag"
+        android:textOff="bag"
+        android:layout_below="@+id/o3"
+        android:id="@+id/o4"/>
+
+
+</FrameLayout>

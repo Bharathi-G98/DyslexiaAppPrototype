@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightblue"
+    tools:context=".Info">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What is Dyslexia?"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/purple"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:textSize="17sp"
+        android:text="Dyslexia is a learning disorder that affects your ability to read, spell, write, and speak. Kids who have it are often smart and hardworking, but they have trouble connecting the letters they see to the sounds those letters make.
+
+About 5% to 10% of Americans have some symptoms of dyslexia, such as slow reading, trouble spelling, or mixing up words. Adults can have this learning disorder, as well. Some people are diagnosed early in life. Others don't realize they have dyslexia until they get older.
+
+Kids with dyslexia often have normal vision and are just as smart as their peers. But they struggle more in school because it takes them longer to read. Trouble processing words can also make it hard to spell, write, and speak clearly." />
+
+</RelativeLayout>

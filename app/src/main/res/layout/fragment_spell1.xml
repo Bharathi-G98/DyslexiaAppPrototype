@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/purple"
+    android:layout_height="match_parent"
+    tools:context=".Spell1Fragment">
+
+    <TextView
+        android:id="@+id/qn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="choose the word that rhymes with:"
+        android:textSize="20sp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Say Word"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="90dp"
+        android:id="@+id/btnSpeak1"
+        />
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="moose"
+        android:textOff="moose"
+        android:layout_marginTop="120dp"
+        android:id="@+id/o1"/>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_below="@+id/o1"
+        android:textOn="bottle"
+        android:textOff="bottle"
+        android:id="@+id/o2"
+        />
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="table"
+        android:textOff="table"
+        android:layout_marginTop="210dp"
+        android:layout_below="@+id/o2"
+        android:id="@+id/o3"
+        />
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="sit"
+        android:textOff="sit"
+        android:layout_marginTop="260dp"
+        android:layout_below="@+id/o3"
+        android:id="@+id/o4"/>
+
+</FrameLayout>
